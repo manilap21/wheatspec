@@ -29,9 +29,10 @@ wheatspec/
     ├── 04_variety_classification_loo.py    # 10-cultivar classification tournament (Figure 4, Table V1)
     └── 05_external_transfer_evaluation.py  # Independent harvest transfer evaluation (Figure 5, Table V2)
 ```
-```bash
-**Installation & Setup**
 
+##**Installation & Setup**
+
+```bash
 # 1. Clone repository
 git clone [https://github.com/manuliperera/wheatspec.git](https://github.com/manuliperera/wheatspec.git)
 cd wheatspec
