@@ -16,7 +16,7 @@ Building upon the foundational chemometrics framework of Kelly et al. (2025), Wh
 
 ## Repository Structure
 
-```text
+```
 wheatspec/
 ├── README.md                          # Documentation and project overview
 ├── LICENSE                            # MIT License
@@ -28,6 +28,7 @@ wheatspec/
     ├── 03_dough_rheology_loo.py            # Master 6-trait LOO-CV rheology suite (Figs 2 & 3, Table 2)
     ├── 04_variety_classification_loo.py    # 10-cultivar classification tournament (Figure 4, Table V1)
     └── 05_external_transfer_evaluation.py  # Independent harvest transfer evaluation (Figure 5, Table V2)
+```
 
 **Installation & Setup**
 
