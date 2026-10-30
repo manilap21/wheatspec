@@ -30,7 +30,7 @@ wheatspec/
     └── 05_external_transfer_evaluation.py  # Independent harvest transfer evaluation (Figure 5, Table V2)
 ```
 
-##Installation & Setup
+##**Installation & Setup**
 
 ```bash
 # 1. Clone repository
