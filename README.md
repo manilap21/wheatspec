@@ -28,3 +28,36 @@ wheatspec/
     ├── 03_dough_rheology_loo.py            # Master 6-trait LOO-CV rheology suite (Figs 2 & 3, Table 2)
     ├── 04_variety_classification_loo.py    # 10-cultivar classification tournament (Figure 4, Table V1)
     └── 05_external_transfer_evaluation.py  # Independent harvest transfer evaluation (Figure 5, Table V2)
+
+**Installation & Setup**
+
+# 1. Clone repository
+git clone [https://github.com/manuliperera/wheatspec.git](https://github.com/manuliperera/wheatspec.git)
+cd wheatspec
+
+# 2. Virtual environment (optional)
+python3.11 -m venv venv
+source venv/bin/activate
+
+# 3. Install requirements
+pip install -r requirements.txt
+
+# 4. Run application
+streamlit run app.py
+
+**Data Availability**
+The historical wheat reference datasets contain proprietary commercial breeding composites owned by Australian Grain Technologies (AGT). Anonymized spectral arrays and cross-validation prediction outputs are available from the corresponding author upon reasonable request. All analysis code, regional masks, and model architectures remain fully open-source.
+
+**Citation**
+If you use WheatSpec or the chemometric pipelines in your research, please cite:
+
+@mastersthesis{perera2026wheatspec,
+  title={Optimising and Comparing Chemometric and Machine Learning Models for the Rapid Prediction of Wheat Dough Quality and Cultivar Identification Using ATR-FTIR Spectroscopy},
+  author={Perera, Manuli},
+  school={The University of Western Australia},
+  year={2026},
+  type={Master's Dissertation (SCIE5574)}
+}
+
+**License**
+Distributed under the MIT License.
