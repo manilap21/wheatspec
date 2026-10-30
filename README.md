@@ -23,8 +23,8 @@ wheatspec/
 ├── requirements.txt                   # Environment dependencies
 ├── app.py                             # Interactive WheatSpec Streamlit application
 └── scripts/
-    ├── 01_merge_rheology_master.py    # Merges historical records into master dataset (n=163)
-    ├── 01_build_variety_models.py     # 10-cultivar classifier tournament (LOO-CV)
-    ├── 02_external_validation_transfer.py # Independent between-season transfer test (n=19)
-    ├── 03_rheology_loo.py             # Master 6-trait LOO-CV dough rheology pipeline
-    └── generate_figure_1_preprocessing.py # Preprocessing spectrum figure generator
+    ├── 01_spectral_preprocessing.py        # Preprocessing spectrum figure generator (Figure 1)
+    ├── 02_merge_rheology_master.py         # Historical rheology compiler (n = 163)
+    ├── 03_dough_rheology_loo.py            # Master 6-trait LOO-CV rheology suite (Figs 2 & 3, Table 2)
+    ├── 04_variety_classification_loo.py    # 10-cultivar classification tournament (Figure 4, Table V1)
+    └── 05_external_transfer_evaluation.py  # Independent harvest transfer evaluation (Figure 5, Table V2)
